@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tailwind-watch": "tailwindcss -i ./src/input.css -o ./dist/index.css --watch"
+    "tailwind-watch": "tailwindcss -i ./src/input.css -o ./dist/index.css --watch",
+    "tailwind-build": "tailwindcss -i ./src/input.css -o ./public/index.css --minify"
   },
   "keywords": [],
   "author": "",
